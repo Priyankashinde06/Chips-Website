@@ -16,3 +16,4 @@ document.querySelector('a[href="#"]').addEventListener('click', function(event) 
 
 document.addEventListener("contextmenu", (e) => e.preventDefault());
 
+document.addEventListener("contextmenu", (e) => e.preventDefault());

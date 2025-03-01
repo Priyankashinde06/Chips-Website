@@ -14,4 +14,5 @@ document.querySelector('a[href="#"]').addEventListener('click', function(event) 
     document.querySelector('#target-section').scrollIntoView({ behavior: 'smooth' });
   });
 
+document.addEventListener("contextmenu", (e) => e.preventDefault());
 
